@@ -13,7 +13,7 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setFormData({
       ...formData,
@@ -39,7 +39,8 @@ export default function Contact() {
             Get in Touch
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl">
-            Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+            Have questions? We'd love to hear from you. Send us a message and
+            we'll respond as soon as possible.
           </p>
         </div>
       </section>
@@ -95,8 +96,10 @@ export default function Contact() {
                     Location
                   </h3>
                   <p className="text-muted-foreground">
-                    123 College Ave<br />
-                    University City, CA 94305<br />
+                    123 College Ave
+                    <br />
+                    University City, CA 94305
+                    <br />
                     United States
                   </p>
                 </div>
@@ -144,7 +147,8 @@ export default function Contact() {
                     Thank You!
                   </h3>
                   <p className="text-green-700">
-                    Your message has been sent successfully. We'll get back to you soon!
+                    Your message has been sent successfully. We'll get back to
+                    you soon!
                   </p>
                 </div>
               ) : (

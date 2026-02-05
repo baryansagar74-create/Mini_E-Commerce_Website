@@ -28,7 +28,8 @@ const NotFound = () => {
               Oops! Page not found
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-md mx-auto">
-              Sorry, the page you're looking for doesn't exist. It might have been moved or deleted.
+              Sorry, the page you're looking for doesn't exist. It might have
+              been moved or deleted.
             </p>
           </div>
 

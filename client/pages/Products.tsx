@@ -15,27 +15,146 @@ interface Product {
 
 const allProducts: Product[] = [
   // Hoodies
-  { id: 1, name: "Classic College Hoodie", category: "hoodies", price: 49.99, color: "blue", image: "bg-gradient-to-br from-blue-500 to-blue-600" },
-  { id: 3, name: "Athletic Hoodie", category: "hoodies", price: 54.99, color: "purple", image: "bg-gradient-to-br from-purple-500 to-purple-600" },
-  { id: 6, name: "Embroidered Hoodie", category: "hoodies", price: 59.99, color: "pink", image: "bg-gradient-to-br from-pink-500 to-pink-600" },
-  { id: 7, name: "Oversized Hoodie", category: "hoodies", price: 54.99, color: "gray", image: "bg-gradient-to-br from-gray-500 to-gray-600" },
-  { id: 8, name: "Fitted Campus Hoodie", category: "hoodies", price: 49.99, color: "navy", image: "bg-gradient-to-br from-blue-900 to-blue-800" },
-  { id: 9, name: "Premium Fleece Hoodie", category: "hoodies", price: 64.99, color: "teal", image: "bg-gradient-to-br from-teal-500 to-teal-600" },
+  {
+    id: 1,
+    name: "Classic College Hoodie",
+    category: "hoodies",
+    price: 49.99,
+    color: "blue",
+    image: "bg-gradient-to-br from-blue-500 to-blue-600",
+  },
+  {
+    id: 3,
+    name: "Athletic Hoodie",
+    category: "hoodies",
+    price: 54.99,
+    color: "purple",
+    image: "bg-gradient-to-br from-purple-500 to-purple-600",
+  },
+  {
+    id: 6,
+    name: "Embroidered Hoodie",
+    category: "hoodies",
+    price: 59.99,
+    color: "pink",
+    image: "bg-gradient-to-br from-pink-500 to-pink-600",
+  },
+  {
+    id: 7,
+    name: "Oversized Hoodie",
+    category: "hoodies",
+    price: 54.99,
+    color: "gray",
+    image: "bg-gradient-to-br from-gray-500 to-gray-600",
+  },
+  {
+    id: 8,
+    name: "Fitted Campus Hoodie",
+    category: "hoodies",
+    price: 49.99,
+    color: "navy",
+    image: "bg-gradient-to-br from-blue-900 to-blue-800",
+  },
+  {
+    id: 9,
+    name: "Premium Fleece Hoodie",
+    category: "hoodies",
+    price: 64.99,
+    color: "teal",
+    image: "bg-gradient-to-br from-teal-500 to-teal-600",
+  },
 
   // T-Shirts
-  { id: 2, name: "Premium T-Shirt", category: "tshirts", price: 24.99, color: "orange", image: "bg-gradient-to-br from-orange-400 to-orange-500" },
-  { id: 5, name: "Vintage T-Shirt", category: "tshirts", price: 29.99, color: "green", image: "bg-gradient-to-br from-green-500 to-green-600" },
-  { id: 10, name: "Classic Crew Neck", category: "tshirts", price: 22.99, color: "white", image: "bg-gradient-to-br from-gray-100 to-gray-200" },
-  { id: 11, name: "Graphic T-Shirt", category: "tshirts", price: 27.99, color: "black", image: "bg-gradient-to-br from-gray-900 to-gray-800" },
-  { id: 12, name: "Oversized T-Shirt", category: "tshirts", price: 26.99, color: "brown", image: "bg-gradient-to-br from-amber-600 to-amber-700" },
+  {
+    id: 2,
+    name: "Premium T-Shirt",
+    category: "tshirts",
+    price: 24.99,
+    color: "orange",
+    image: "bg-gradient-to-br from-orange-400 to-orange-500",
+  },
+  {
+    id: 5,
+    name: "Vintage T-Shirt",
+    category: "tshirts",
+    price: 29.99,
+    color: "green",
+    image: "bg-gradient-to-br from-green-500 to-green-600",
+  },
+  {
+    id: 10,
+    name: "Classic Crew Neck",
+    category: "tshirts",
+    price: 22.99,
+    color: "white",
+    image: "bg-gradient-to-br from-gray-100 to-gray-200",
+  },
+  {
+    id: 11,
+    name: "Graphic T-Shirt",
+    category: "tshirts",
+    price: 27.99,
+    color: "black",
+    image: "bg-gradient-to-br from-gray-900 to-gray-800",
+  },
+  {
+    id: 12,
+    name: "Oversized T-Shirt",
+    category: "tshirts",
+    price: 26.99,
+    color: "brown",
+    image: "bg-gradient-to-br from-amber-600 to-amber-700",
+  },
 
   // Accessories
-  { id: 4, name: "Campus Cap", category: "accessories", price: 19.99, color: "red", image: "bg-gradient-to-br from-red-500 to-red-600" },
-  { id: 13, name: "Beanie Hat", category: "accessories", price: 17.99, color: "black", image: "bg-gradient-to-br from-gray-900 to-gray-800" },
-  { id: 14, name: "College Socks Pack", category: "accessories", price: 14.99, color: "multi", image: "bg-gradient-to-br from-yellow-400 to-red-500" },
-  { id: 15, name: "Campus Tote Bag", category: "accessories", price: 34.99, color: "navy", image: "bg-gradient-to-br from-blue-900 to-blue-800" },
-  { id: 16, name: "Embroidered Belt", category: "accessories", price: 29.99, color: "brown", image: "bg-gradient-to-br from-amber-600 to-amber-700" },
-  { id: 17, name: "Varsity Scarf", category: "accessories", price: 24.99, color: "multi", image: "bg-gradient-to-br from-red-500 to-blue-500" },
+  {
+    id: 4,
+    name: "Campus Cap",
+    category: "accessories",
+    price: 19.99,
+    color: "red",
+    image: "bg-gradient-to-br from-red-500 to-red-600",
+  },
+  {
+    id: 13,
+    name: "Beanie Hat",
+    category: "accessories",
+    price: 17.99,
+    color: "black",
+    image: "bg-gradient-to-br from-gray-900 to-gray-800",
+  },
+  {
+    id: 14,
+    name: "College Socks Pack",
+    category: "accessories",
+    price: 14.99,
+    color: "multi",
+    image: "bg-gradient-to-br from-yellow-400 to-red-500",
+  },
+  {
+    id: 15,
+    name: "Campus Tote Bag",
+    category: "accessories",
+    price: 34.99,
+    color: "navy",
+    image: "bg-gradient-to-br from-blue-900 to-blue-800",
+  },
+  {
+    id: 16,
+    name: "Embroidered Belt",
+    category: "accessories",
+    price: 29.99,
+    color: "brown",
+    image: "bg-gradient-to-br from-amber-600 to-amber-700",
+  },
+  {
+    id: 17,
+    name: "Varsity Scarf",
+    category: "accessories",
+    price: 24.99,
+    color: "multi",
+    image: "bg-gradient-to-br from-red-500 to-blue-500",
+  },
 ];
 
 export default function Products() {
@@ -45,9 +164,7 @@ export default function Products() {
 
   const categories = ["hoodies", "tshirts", "accessories"];
   const filteredProducts = categoryFilter
-    ? allProducts.filter(
-        (p) => p.category === categoryFilter.toLowerCase()
-      )
+    ? allProducts.filter((p) => p.category === categoryFilter.toLowerCase())
     : allProducts;
 
   return (
@@ -61,7 +178,8 @@ export default function Products() {
             Shop Our Collection
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl">
-            Browse through our carefully curated selection of college apparel and accessories.
+            Browse through our carefully curated selection of college apparel
+            and accessories.
           </p>
         </div>
       </section>
@@ -108,7 +226,9 @@ export default function Products() {
 
               {/* Price Filter */}
               <div>
-                <h4 className="font-semibold text-foreground mb-4">Price Range</h4>
+                <h4 className="font-semibold text-foreground mb-4">
+                  Price Range
+                </h4>
                 <div className="space-y-2 text-sm text-muted-foreground">
                   <label className="flex items-center gap-2 cursor-pointer">
                     <input type="checkbox" className="rounded" />
@@ -156,7 +276,9 @@ export default function Products() {
                     className="group bg-card rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                   >
                     {/* Product Image */}
-                    <div className={`w-full h-64 ${product.image} flex items-center justify-center relative overflow-hidden`}>
+                    <div
+                      className={`w-full h-64 ${product.image} flex items-center justify-center relative overflow-hidden`}
+                    >
                       <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors" />
                       <ShoppingBag className="w-16 h-16 text-white/80 group-hover:w-20 group-hover:h-20 transition-all" />
                     </div>

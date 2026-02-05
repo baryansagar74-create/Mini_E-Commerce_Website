@@ -1,4 +1,12 @@
-import { ShoppingBag, Mail, Phone, MapPin, Facebook, Instagram, Twitter } from "lucide-react";
+import {
+  ShoppingBag,
+  Mail,
+  Phone,
+  MapPin,
+  Facebook,
+  Instagram,
+  Twitter,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -17,7 +25,8 @@ export default function Footer() {
               <span className="text-xl font-bold">ThreadHub</span>
             </div>
             <p className="text-gray-400">
-              Your go-to destination for stylish college apparel and accessories.
+              Your go-to destination for stylish college apparel and
+              accessories.
             </p>
           </div>
 
@@ -26,22 +35,34 @@ export default function Footer() {
             <h3 className="font-semibold text-lg mb-4">Shop</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/products?category=hoodies" className="text-gray-400 hover:text-white transition-colors">
+                <Link
+                  to="/products?category=hoodies"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   Hoodies
                 </Link>
               </li>
               <li>
-                <Link to="/products?category=tshirts" className="text-gray-400 hover:text-white transition-colors">
+                <Link
+                  to="/products?category=tshirts"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   T-Shirts
                 </Link>
               </li>
               <li>
-                <Link to="/products?category=accessories" className="text-gray-400 hover:text-white transition-colors">
+                <Link
+                  to="/products?category=accessories"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   Accessories
                 </Link>
               </li>
               <li>
-                <Link to="/products" className="text-gray-400 hover:text-white transition-colors">
+                <Link
+                  to="/products"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   All Products
                 </Link>
               </li>
@@ -53,22 +74,34 @@ export default function Footer() {
             <h3 className="font-semibold text-lg mb-4">Company</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-gray-400 hover:text-white transition-colors">
+                <Link
+                  to="/"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/" className="text-gray-400 hover:text-white transition-colors">
+                <Link
+                  to="/"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   Blog
                 </Link>
               </li>
               <li>
-                <Link to="/" className="text-gray-400 hover:text-white transition-colors">
+                <Link
+                  to="/"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   Careers
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-400 hover:text-white transition-colors">
+                <Link
+                  to="/contact"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   Contact
                 </Link>
               </li>
@@ -81,13 +114,19 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                <a href="tel:+1234567890" className="text-gray-400 hover:text-white transition-colors">
+                <a
+                  href="tel:+1234567890"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   (123) 456-7890
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <a href="mailto:hello@threadhub.com" className="text-gray-400 hover:text-white transition-colors">
+                <a
+                  href="mailto:hello@threadhub.com"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   hello@threadhub.com
                 </a>
               </li>
@@ -105,13 +144,22 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex items-center gap-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 <Twitter className="w-5 h-5" />
               </a>
             </div>

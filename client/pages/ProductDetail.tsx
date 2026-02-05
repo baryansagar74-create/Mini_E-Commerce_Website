@@ -188,7 +188,7 @@ export default function ProductDetail() {
                 </span>
               </div>
               <p className="text-sm text-green-600 font-semibold mt-2">
-                Save ${((product.price * 0.2).toFixed(2))} (17% off)
+                Save ${(product.price * 0.2).toFixed(2)} (17% off)
               </p>
             </div>
 
@@ -334,7 +334,9 @@ export default function ProductDetail() {
                     to={`/product/${relatedId}`}
                     className="group bg-card rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all hover:-translate-y-1"
                   >
-                    <div className={`w-full h-64 ${relatedProduct.image} flex items-center justify-center`}>
+                    <div
+                      className={`w-full h-64 ${relatedProduct.image} flex items-center justify-center`}
+                    >
                       <ShoppingBag className="w-16 h-16 text-white/80" />
                     </div>
                     <div className="p-6">

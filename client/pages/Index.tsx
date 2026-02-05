@@ -82,7 +82,9 @@ export default function Index() {
                   Express Your Campus Style
                 </h1>
                 <p className="text-xl text-muted-foreground">
-                  Discover premium college hoodies, t-shirts, and accessories designed for students like you. Show your school spirit with style.
+                  Discover premium college hoodies, t-shirts, and accessories
+                  designed for students like you. Show your school spirit with
+                  style.
                 </p>
               </div>
 
@@ -101,13 +103,17 @@ export default function Index() {
                   <div className="w-10 h-10 rounded-lg bg-secondary/20 flex items-center justify-center">
                     <Zap className="w-5 h-5 text-secondary" />
                   </div>
-                  <span className="font-medium text-foreground">Premium Quality</span>
+                  <span className="font-medium text-foreground">
+                    Premium Quality
+                  </span>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="w-10 h-10 rounded-lg bg-accent/20 flex items-center justify-center">
                     <Truck className="w-5 h-5 text-accent" />
                   </div>
-                  <span className="font-medium text-foreground">Fast Shipping</span>
+                  <span className="font-medium text-foreground">
+                    Fast Shipping
+                  </span>
                 </div>
               </div>
             </div>
@@ -146,7 +152,9 @@ export default function Index() {
                 className="group bg-card rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
               >
                 {/* Product Image */}
-                <div className={`w-full h-64 ${product.image} flex items-center justify-center relative overflow-hidden`}>
+                <div
+                  className={`w-full h-64 ${product.image} flex items-center justify-center relative overflow-hidden`}
+                >
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors" />
                   <ShoppingBag className="w-16 h-16 text-white/80 group-hover:w-20 group-hover:h-20 transition-all" />
                 </div>
